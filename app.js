@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://luizanbrg:23191709Lea@learningmongo.2n6wf.mongodb.net/?retryWrites=true&w=majority&appName=LearningMongo",
+    "mongodb+srv://luizanbrg:123456Lea@learningmongo.2n6wf.mongodb.net/?retryWrites=true&w=majority&appName=LearningMongo",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connexion à MongoDB réussie !"))
